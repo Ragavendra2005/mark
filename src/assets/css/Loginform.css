@@ -1,0 +1,110 @@
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://smarttek.solutions/wp-content/uploads/iot-supply-chain-1170x516.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif; 
+}
+
+.login-form {
+    text-align: center;
+    width: 300px; 
+    padding: 25px; 
+    margin: 20px; 
+    position: relative;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.6); 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); 
+    z-index: 1; 
+}
+
+.input__fields {
+    margin-bottom: 20px; 
+    position: relative;
+}
+
+.input__fields label {
+    display: block;
+    margin-bottom: 8px; 
+    font-size: 1em; 
+}
+
+.input__fields input {
+    width: 100%;
+    padding: 10px; 
+    box-sizing: border-box;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+.input__fields input:focus {
+    border-color: black; 
+    outline: none;
+    box-shadow: gray; 
+}
+
+.password-field {
+    position: relative;
+}
+
+.password-field input {
+    width: 100%;  
+}
+
+.password-field .toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: black; 
+    font-size: 1em;
+}
+
+.but {
+    width: 100%;
+    padding: 12px; 
+    background-color: darkslategray;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.but:hover {
+    background-color: lightslategray;
+}
+
+.message {
+    color: green;
+    margin-top: 15px; 
+    font-size: 1em; 
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 15px; 
+}
+
+.additional-options {
+    margin-top: 15px;
+    text-align: left; 
+}
+
+.additional-options button {
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    padding: 0;
+    font-size: 0.7em;
+    text-decoration: underline;
+}

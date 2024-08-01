@@ -1,0 +1,33 @@
+/* Horizontal Centered Navbar Style */
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1c1e1f;
+    padding: 10px 0;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between links */
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .nav a:hover {
+    background-color: #555;
+    border-radius: 4px;
+  }
+  
