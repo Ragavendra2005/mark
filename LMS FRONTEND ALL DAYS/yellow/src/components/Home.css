@@ -1,0 +1,85 @@
+/* Home Button Styling */
+.header {
+    display: flex;
+    justify-content: flex-start; /* Align to the left */
+    margin-bottom: 20px;
+  }
+  
+  .home-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 20px; /* Space between the button and the left edge */
+  }
+  
+  .home-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Ensure other elements are styled as desired */
+  .main-container {
+    padding: 20px;
+  }
+  
+  .main-title h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .main-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    color: #333;
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .card_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card_icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .charts {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .charts .recharts-responsive-container {
+    margin-bottom: 20px;
+  }
+  .logout-button {
+    background-color: #dc3545; /* Red color for logout */
+    border: none;
+    color: white;
+    padding: 8px 16px; /* Reduced padding */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 10px 0;
+    width: auto; /* Ensure the button width adjusts to its content */
+  }
+  
+  .logout-button:hover {
+    background-color: #c82333;
+  }
+  

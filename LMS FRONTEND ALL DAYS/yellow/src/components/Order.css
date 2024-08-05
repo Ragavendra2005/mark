@@ -1,0 +1,119 @@
+/* General Container Styling */
+.container {
+  padding: 20px 30px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin: 0 auto; /* Center the container horizontally */
+  overflow-x: hidden; /* Remove horizontal scroll */
+  overflow-y: auto; /* Enable vertical scroll */
+  height: 100vh; /* Full height of the viewport */
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  color: #4a148c;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Order Table Styling */
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.order-table th,
+.order-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.order-table th {
+  background-color: #d1c4e9;
+  color: #4a148c;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.order-table td {
+  vertical-align: middle;
+}
+
+/* Product Column Styling */
+.product {
+  display: flex;
+  align-items: center;
+}
+
+.product-image {
+  width: 80px;
+  height: 80px;
+  margin-right: 15px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Order Summary Styling */
+.order-summary {
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+  padding: 15px;
+  border-radius: 8px;
+  width: 100%; /* Make summary span the full width */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+  margin-top: auto; /* Push to bottom */
+}
+
+.summary-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.summary-row:last-child {
+  border-bottom: none;
+}
+
+.total {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #4a148c;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 2px solid #ddd;
+}
+
+/* Input Field Styling */
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 0;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border-color: #4a148c;
+  outline: none;
+  box-shadow: 0 0 5px rgba(74, 20, 140, 0.3);
+}

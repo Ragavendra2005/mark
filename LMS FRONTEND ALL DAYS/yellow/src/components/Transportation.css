@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh;
+  background-color: #f0f2f5; /* Light background color */
+  overflow: hidden; /* Prevent body scroll */
+}
+
+/* Container Styles */
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto; /* Enable vertical scrolling */
+  height: 100vh; /* Full viewport height */
+  box-sizing: border-box; /* Include padding in height calculation */
+}
+
+/* Transportation Card Styles */
+.transportation-card {
+  width: 90%;
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  background-color: #ffffff;
+  animation: fadeIn 1s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box; /* Ensure padding and margin do not affect container size */
+}
+
+/* Title and Description Styles */
+.transportation-title {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 2.2rem;
+  color: #1976d2;
+  font-weight: 600;
+}
+
+.transportation-description {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Search Container Styles */
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 2rem 0;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  animation: fadeIn 1s ease-in-out;
+  box-sizing: border-box; /* Ensure padding and margin do not affect container size */
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1.5rem;
+  width: 90%;
+  max-width: 650px; /* Reduced width */
+  animation: slideIn 1s ease-in-out;
+}
+
+.search-results {
+  margin-top: 2rem;
+  width: 90%;
+  max-width: 650px; /* Reduced width */
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+/* Material-UI Overrides */
+.MuiFormControl-root,
+.MuiTextField-root {
+  width: 100%;
+}
+
+.MuiButton-containedPrimary {
+  background-color: #1976d2;
+  color: #ffffff;
+  font-size: 1.2rem;
+  padding: 0.5rem 2rem;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: #155a9c;
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateY(-20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
